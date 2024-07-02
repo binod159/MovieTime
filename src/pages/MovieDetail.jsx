@@ -20,7 +20,7 @@ function MovieDetail({title}) {
 
     }
     fetchmovie();
-  }, []);
+  }, [params.id]);
 
   useEffect (() => {
     document.title = `${movie.title}/MovieTime` ;
